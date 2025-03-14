@@ -92,6 +92,11 @@ body {
     justify-content: center;
 }
 
+.button-container2 {
+    width: 300px;
+    justify-content: center;
+}
+
 /* Estilos de entrada de texto */
 .input-title {
     flex: 1;
@@ -143,6 +148,25 @@ ul {
 }
 
 /* Botão de sortear título */
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
+.button-draw img {
+    margin-right: 40px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Botão de reiniciar sorteio */
 .button-draw {
     display: flex;
     align-items: center;
