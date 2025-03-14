@@ -167,7 +167,7 @@ ul {
 }
 
 /* Botão de reiniciar sorteio */
-.button-draw {
+.button-reset {
     display: flex;
     align-items: center;
     width: 100%;
@@ -177,10 +177,10 @@ ul {
     font-size: 16px;
 }
 
-.button-draw img {
+.button-reset img {
     margin-right: 40px;
 }
 
-.button-draw:hover {
+.button-reset:hover {
     background-color: var(--color-button-hover);
 }
