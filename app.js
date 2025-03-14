@@ -12,7 +12,7 @@ function adicionarAmigo() {
         return;
     }
 
-    // Validação: Nome duplicado
+    // Validação para impedir nome duplicado
     if (amigos.includes(nome)) {
         alert("Este nome já foi adicionado.");
         return;
@@ -50,6 +50,7 @@ function sortearAmigo() {
 
         if (amigoDisponivel.length === 0) {
             alert("Sorteio inválido. Reiniciando...");
+            reiniciarSorteio();
             sortearAmigo(); // Se não houver opção válida, refaz o sorteio
             return;
         }
